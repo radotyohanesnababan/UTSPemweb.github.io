@@ -1,0 +1,100 @@
+* {
+  font-family: "Raleway";
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway';
+  background-attachment: fixed;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h1{
+    text-align: center;
+    margin-top:40px;
+}
+
+nav {
+  display: flex;
+  background-color: rgba(91, 232, 100, 0.418);
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  min-height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-menu :hover {
+  font-weight: bolder;
+  background-color: aquamarine;
+  padding: 10px;
+  transition: 0.3s;
+  border-radius: 25%;
+}
+
+table {
+    width: 90%;
+    padding-top: 50px;
+    margin: 40px;
+}
+
+th {
+  background-color: #117a539b;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #509f54;
+}
+
+tr:nth-child(even) {
+  background-color: #cddfc9;
+  color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: #236110;
+  color: white;
+}
+footer {
+    color: black;
+    background-color: rgba(31, 119, 21, 0.27);
+    padding: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
